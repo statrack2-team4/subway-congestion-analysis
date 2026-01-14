@@ -3,8 +3,6 @@ revision = 3
 requires-python = ">=3.13"
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "anyio"
 version = "4.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -56,7 +54,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "contourpy"
 version = "1.3.3"
 source = { registry = "https://pypi.org/simple" }
@@ -121,8 +118,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "fastjsonschema"
 version = "2.21.2"
 source = { registry = "https://pypi.org/simple" }
@@ -141,7 +136,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "fonttools"
 version = "4.61.1"
 source = { registry = "https://pypi.org/simple" }
@@ -175,8 +169,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "fsspec"
 version = "2026.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -331,7 +323,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "kiwisolver"
 version = "1.4.9"
 source = { registry = "https://pypi.org/simple" }
@@ -388,6 +379,18 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/99/dd/841e9a66c4715477ea0abc78da039832fbb09dac5c35c58dc4c41a407b8a/kiwisolver-1.4.9-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:aedff62918805fb62d43a4aa2ecd4482c380dc76cd31bd7c8878588a61bd0369", size = 2391835, upload-time = "2025-08-10T21:27:34.23Z" },
     { url = "https://files.pythonhosted.org/packages/0c/28/4b2e5c47a0da96896fdfdb006340ade064afa1e63675d01ea5ac222b6d52/kiwisolver-1.4.9-cp314-cp314t-win_amd64.whl", hash = "sha256:1fa333e8b2ce4d9660f2cda9c0e1b6bafcfb2457a9d259faa82289e73ec24891", size = 79988, upload-time = "2025-08-10T21:27:35.587Z" },
     { url = "https://files.pythonhosted.org/packages/80/be/3578e8afd18c88cdf9cb4cffde75a96d2be38c5a903f1ed0ceec061bd09e/kiwisolver-1.4.9-cp314-cp314t-win_arm64.whl", hash = "sha256:4a48a2ce79d65d363597ef7b567ce3d14d68783d2b2263d98db3d9477805ba32", size = 70260, upload-time = "2025-08-10T21:27:36.606Z" },
+]
+
+[[package]]
+name = "koreanize-matplotlib"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9b/7b/56c3ec7f9fcf806bbe46f5ed4f3966222faf7891279751c8384d6200eab9/koreanize-matplotlib-0.1.1.tar.gz", hash = "sha256:0930075aac18aab8bc871fc76134776b8bc240bd1cd2acfc00ebd3713323c444", size = 7926102, upload-time = "2022-12-27T09:02:35.257Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/91/93f56a4526d2dbead44250d9166d97568c2ce051c90eaa4be36788d59131/koreanize_matplotlib-0.1.1-py3-none-any.whl", hash = "sha256:4f563db1a75d9eb6bdb667a435adf8a5daf7e41504486f1b0fb1c20e4bfed4ca", size = 7945390, upload-time = "2022-12-27T09:02:28.212Z" },
 ]
 
 [[package]]
@@ -561,8 +564,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "patsy"
 version = "1.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -575,7 +576,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "pillow"
 version = "12.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -634,8 +634,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "platformdirs"
 version = "4.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -645,7 +643,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "plotly"
 version = "6.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -689,8 +686,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pyyaml"
 version = "6.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -895,7 +890,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "seaborn"
 version = "0.13.2"
 source = { registry = "https://pypi.org/simple" }
@@ -910,8 +904,15 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
+name = "setuptools"
+version = "80.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/18/5d/3bf57dcd21979b887f014ea83c24ae194cfcd12b9e0fda66b957c69d1fca/setuptools-80.9.0.tar.gz", hash = "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c", size = 1319958, upload-time = "2025-05-27T00:56:51.443Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl", hash = "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922", size = 1201486, upload-time = "2025-05-27T00:56:49.664Z" },
+]
+
+[[package]]
 name = "shellingham"
 version = "1.5.4"
 source = { registry = "https://pypi.org/simple" }
@@ -921,7 +922,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 name = "six"
 version = "1.17.0"
 source = { registry = "https://pypi.org/simple" }
@@ -962,14 +962,8 @@ name = "subway-congestion-analysis"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-<<<<<<< HEAD
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "plotly" },
-    { name = "seaborn" },
-=======
     { name = "huggingface-hub" },
+    { name = "koreanize-matplotlib" },
     { name = "matplotlib" },
     { name = "nbformat" },
     { name = "numpy" },
@@ -977,20 +971,14 @@ dependencies = [
     { name = "plotly" },
     { name = "scikit-learn" },
     { name = "seaborn" },
+    { name = "setuptools" },
     { name = "statsmodels" },
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 ]
 
 [package.metadata]
 requires-dist = [
-<<<<<<< HEAD
-    { name = "matplotlib", specifier = ">=3.10.8" },
-    { name = "numpy", specifier = ">=2.4.1" },
-    { name = "pandas", specifier = ">=2.3.3" },
-    { name = "plotly", specifier = ">=6.5.1" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-=======
     { name = "huggingface-hub", specifier = ">=1.3.1" },
+    { name = "koreanize-matplotlib", specifier = ">=0.1.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "numpy", specifier = ">=2.4.1" },
@@ -998,6 +986,7 @@ requires-dist = [
     { name = "plotly", specifier = ">=6.5.1" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "setuptools", specifier = ">=80.9.0" },
     { name = "statsmodels", specifier = ">=0.14.6" },
 ]
 
@@ -1051,7 +1040,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466", size = 109391, upload-time = "2025-08-25T13:49:26.313Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548", size = 44614, upload-time = "2025-08-25T13:49:24.86Z" },
->>>>>>> 096b102b74d3042c150ca600d3bf620f4ebfb10b
 ]
 
 [[package]]
