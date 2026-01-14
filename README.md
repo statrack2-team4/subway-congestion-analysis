@@ -1,17 +1,83 @@
-# 지하철 혼잡도 분석 프로젝트
+# 🚇지하철 혼잡도 분석 프로젝트
 
-## 팀원
+## 👥팀원
 
 | <a href="https://github.com/JaeBinary"><img src="https://github.com/JaeBinary.png" width="100"></a> | <a href="https://github.com/leesunforest"><img src="https://github.com/leesunforest.png" width="100"></a> | <a href="https://github.com/miamikyeong-ux"><img src="https://github.com/miamikyeong-ux.png" width="100"></a> | <a href="https://github.com/Virum123"><img src="https://github.com/Virum123.png" width="100"></a> | <a href="https://github.com/beanbean12"><img src="https://github.com/beanbean12.png" width="100"></a> | <a href="https://github.com/jaewon8834-dot"><img src="https://github.com/jaewon8834-dot.png" width="100"></a> | <a href="https://github.com/yeilow"><img src="https://github.com/yeilow.png" width="100"></a> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **JaeBinary** | **leesunforest** | **miamikyeong-ux** | **Virum123** | **beanbean12** | **jaewon8834-dot** | **yeilow** |
 
-## 프로젝트 구조
+# 🚇 지하철 혼잡도 분석 프로젝트
+
+# ◽개요
+
+- **진행 기간**: Week 2 ~ Week 3 (9일)
+    - 일자별 진행상황
+        
+        
+        | 26.01.05 월 | 프로젝트 주제 탐색 |
+        | --- | --- |
+        | 26.01.06 화 |  |
+        | 26.01.07 수 | 프로젝트 주제 확정 |
+        | 26.01.08 목 | 데이터 수집 |
+        | 26.01.09 금 | 데이터 수집 공유, 데이터 설계 |
+        | 26.01.10 토 | API수집 코드 작성, 크롤링 구현 |
+        | 26.01.11 일 | DB설계 및 적재 |
+        | 26.01.12 월 | EDA + 기본 시각화 |
+        | 26.01.13 화 | 텍스트 분석 |
+        | 26.01.14 수 | Plotly 대시보드 |
+        | 26.01.15 목 | 해결 방안 정리, 리포트 |
+        
+- **사용 언어**: Python
+- **DBMS**: SQLite
+
+# ◽프로젝트 배경
+
+- 출퇴근 시간대 지하철 혼잡은 **승객 불편**, **안전 문제**, **운영 비효율**을 초래함
+- 혼잡도는 시간·노선·역별로 상이하며, **정량적 분석**이 필요함
+- 공공데이터를 활용해 혼잡 패턴을 분석하고 **개선 시사점**을 도출하고자 함
+
+# 📂프로젝트 구조
 
 ```
+📦 subway-congestion-analysis
+ ┣ 📂 data
+ ┣ 📂 crawler
+ ┣ 📂 api
+ ┣ 📂 db
+ ┣ 📂 analysis
+ ┣ 📂 dashboard
+ ┣ 📜 README.md
+ ┣ 📜 report.ipynb
 ```
 
-## 데이터 설명
+---
+
+# 🎯 분석 목표
+
+Q1. 출퇴근 시간대 혼잡도는 다른 시간대와 얼마나 차이가 나는가?
+
+Q2. 혼잡도가 가장 높은 노선과 역은 어디인가?
+
+Q3. 환승역은 일반역보다 혼잡도가 높은가?
+
+Q4. 평일과 주말의 혼잡 패턴은 어떻게 다른가?
+
+Q5. 특정 시간·노선 조건에서 혼잡 발생을 예측할 수 있는가?
+
+# 🧠 분석 내용
+
+- 날씨가 지하철 이용량에 미치는 영향
+- 출퇴근 시간대 혼잡도 분석
+- 주요 업무지구 통과 여부 비교
+- 행사·집회 발생 시 혼잡도 영향
+- 시간대·노선별 혼잡도 예측 모델
+- 환승역이 혼잡도에 미치는 영향 분석
+
+---
+
+# 🗒️데이터 상세설명
+
+
 
 ### 지하철 혼잡도
 
